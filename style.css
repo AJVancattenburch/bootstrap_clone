@@ -1,0 +1,104 @@
+:root {
+  --bg-light: #e9e8e8;
+  --text-primary: #242528;
+  --shadow-primary: #111111;
+  --btn-primary: #bd5e35;
+}
+
+/** ROW 1 - HEADER **/
+.header {
+  color: var(--text-primary);
+  font-size: 3rem;
+  text-shadow: 2px 2px 2px var(--shadow-primary);
+  text-transform: uppercase;
+}
+.slogan {
+  color: var(--text-primary);
+  font-size: .75rem;
+  text-shadow: .75px .75px .75px var(--shadow-primary);
+}
+
+/** ROW 2 - NAVBAR **/
+.nav-link {
+  color: var(--text-primary);
+  font-size: .8rem;
+  text-shadow: 1px 1px 1px var(--shadow-primary);
+}
+
+/** ROW 3 -  **/
+.pins {
+  height: 80%;
+  width: 70%;
+}
+
+/** ROW 4 -  **/
+.card-icon {
+  color: var(--btn-primary);
+}
+.card-title {
+  color: var(--text-primary);
+  text-shadow: 1px 1px 1px var(--shadow-primary);
+}
+.card-text {
+  color: var(--text-primary);
+  font-size: .6rem;
+  text-shadow: 0px .5px 1px var(--shadow-primary);
+  margin-bottom: 0;
+}
+.card-link {
+  color: var(--btn-primary);
+  font-size: .75rem;
+}
+/** ROW 5 -  **/
+.text-body-secondary {
+  font-size: .5rem;
+}
+
+/** ROW 6 -  **/
+.latest-events {
+  background-color: var(--bg-light);
+  color: var(--text-primary);
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px var(--shadow-primary);
+  text-transform: uppercase;
+  padding-top: 2rem;
+}
+.add-info {
+  background-color: var(--bg-light);
+  color: var(--text-primary);
+  font-size: .5rem;
+  text-shadow: .75px .75px .75px var(--shadow-primary);
+  padding-bottom: .5rem;
+}
+
+/** ROW 7 -  **/
+.bg-bottom {
+  background-color: var(--bg-light);
+}
+.img-bottom {
+  height: 4rem;
+  width: 4rem;
+  outline: .5rem solid white;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+/** ROW 8 -  **/
+.credits {
+  color: var(--text-primary);
+  font-size: .8rem;
+  text-shadow: .75px .75px .75px var(--shadow-primary);
+  margin-top: .5rem;
+}
+.credits-names {
+  color: var(--text-primary);
+  font-size: .5rem;
+  text-shadow: .75px .75px .75px var(--shadow-primary);
+  padding-bottom: .5rem;
+}
+
+/** ROW 9 -  **/
+.phone {
+  color: var(--btn-primary);
+  font-weight: 500;
+  padding-bottom: .5rem;
+}
